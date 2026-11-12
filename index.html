@@ -1,0 +1,9 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>MySQL · Guía interactiva</title><meta name="description" content="Instalá XAMPP, aprendé SQL y practicá con una base de datos de un reproductor musical."><link rel="stylesheet" href="style.css"><script defer src="data.js"></script><script defer src="app.js"></script></head>
+<body><header><a class="brand" href="#inicio"><img src="logo.png" alt="Logo" onerror="this.hidden=true"><span class="mark">SQL</span> MySQL <small>Guía interactiva</small></a></header>
+<section class="hero" id="inicio"><div><p class="eyebrow">BASES DE DATOS</p><h1>Aprendé SQL.<br><em>Consultá tus datos.</em></h1><p>Prepará XAMPP en Windows, creá la base de un reproductor musical y practicá con consultas que podés probar en phpMyAdmin.</p><a class="cta" href="#xampp">Empezar con XAMPP ↓</a></div><div class="terminal" aria-hidden="true"><div class="titlebar"><i></i><i></i><i></i><span>reproductor_sql</span></div><pre><b>SELECT</b> titulo, artista
+<b>FROM</b> cancion
+<b>WHERE</b> duracion_seg &gt;= 200
+<b>ORDER BY</b> titulo;</pre><div class="terminal-out">3 canciones encontradas</div></div></section>
+<nav aria-label="Secciones"><a href="#xampp">XAMPP</a><a href="#introduccion">Introducción</a><a href="#comandos">Comandos</a><a href="#laboratorio">Consultas</a><a href="#ejercicios">Ejercicios</a></nav>
+<main id="contenido"></main>
+<footer><a href="https://www.apachefriends.org/es/faq_windows.html">Apache Friends · XAMPP</a><a href="https://dev.mysql.com/doc/refman/8.4/en/sql-statements.html">MySQL · Referencia SQL</a><a href="https://mariadb.com/docs/server/reference/sql-statements">MariaDB · Referencia SQL</a></footer></body></html>
